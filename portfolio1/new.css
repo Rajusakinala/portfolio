@@ -1,0 +1,69 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#greet{
+    text-align: center;
+    color: rgb(0, 195, 255);
+}
+
+.hero{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: lightblue;
+}
+
+.text{
+    margin: 20px;
+    margin-top: 40px;
+    padding: 20px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+
+.card{
+    color: blue;
+    margin: 100px;
+    margin-right: 200px;
+    background-color: rgb(233, 246, 248);
+}
+
+.pic{
+  
+    padding: 10px;
+}
+
+.pic:hover{
+    transform: scale(1.05);
+
+}
+.bg{
+    background-color: rgb(229, 243, 245);
+}
+
+.cards{
+    width: 150px;
+    height: 150px;
+    background-color: lightskyblue;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 8px;
+    border-color: rgb(76, 234, 255);
+    outline-color: rgb(41, 171, 247);
+    outline-style: dashed;
+    outline-width: 1px;
+    margin: 8px;
+    padding: 4px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.cards:hover{
+    background-color: #fff;
+    transform: scale(1.1);
+    font-size: 10px;
+}
